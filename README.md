@@ -31,11 +31,13 @@ $ python main.py -lang=en "C:\\Users\\user\\Documents\\Тестовое_зада
 Результатом будет result_text.txt внутри json записи в виде лога распознования.
 
 Замедлить аудио в 2 раза:
+```
 $ python main.py -speed=0.5 "C:\\Users\\user\\Documents\\Тестовое_задание\\Voice\\russian_voice.wav"
-
+```
 Ускорить аудио в 2 раза:
+```
 $ python main.py -speed=2 "C:\\Users\\user\\Documents\\Тестовое_задание\\Voice\\russian_voice.wav"
-
+```
 
 Увеличить звук аудио файла на 30 децибел:
 $ python main.py -valume=30 "C:\\Users\\user\\Documents\\Тестовое_задание\\Voice\\russian_voice.wav"
