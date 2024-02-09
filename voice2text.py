@@ -31,7 +31,7 @@ def voiceToText(path_to_file, lang):
         path_to_module = path_to_model_en
      
     if not os.path.exists(path_to_module):
-        print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
+        print ("Please download the model from https://alphacephei.com/vosk/models.")
         exit (1)
 
     model = Model(path_to_module)
